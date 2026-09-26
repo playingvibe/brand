@@ -1,0 +1,25 @@
+# Runs on every push to main and every pull request, from forks too.
+#
+# It uses `pull_request`, never `pull_request_target`, so a fork's code runs with a read-only token
+# and no secrets, and nothing here reads a secret. It has no dependencies and deploys nothing.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  assets:
+    name: Check the assets
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-assets.js

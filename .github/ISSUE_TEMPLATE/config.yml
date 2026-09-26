@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security problem or a rights concern privately
+    url: https://github.com/playingvibe/brand/security/advisories/new
+    about: Please don't open a public issue for these.
+  - name: Questions about the bot
+    url: https://discord.gg/nMJJ8PAcD9
+    about: The support server is the place for anything that isn't about this artwork.

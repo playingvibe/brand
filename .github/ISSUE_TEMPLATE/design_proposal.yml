@@ -1,0 +1,37 @@
+name: Design proposal
+description: A redesign, a better badge, a new emoji
+labels: [design]
+body:
+  - type: input
+    id: what
+    attributes:
+      label: What would you change?
+      description: The file names, or the group (badges, logos, banners...)
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What problem does it solve?
+      description: For example, "the streak badges look alike at 20 px" or "the glyphs disappear on the light theme".
+    validations:
+      required: true
+  - type: textarea
+    id: mock
+    attributes:
+      label: Your design
+      description: Attach it, ideally next to the current one at 20 px and 64 px, dark and light.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights
+      options:
+        - label: I made this, or have the right to submit it, and it contains no third-party marks or characters
+          required: true
+        - label: Any AI-generated part is named above
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you build it?
+      options:
+        - label: I'd like to send a pull request with the files
