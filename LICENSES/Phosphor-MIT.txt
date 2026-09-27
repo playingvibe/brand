@@ -1,6 +1,5 @@
 Phosphor Icons (https://phosphoricons.com), used through Iconify (https://iconify.design).
-A few of the emoji in emojis/ are Phosphor "Fill" icons, recoloured: activity, instances, resume,
-queue, shield, export, trash, status, wrench, faq and rules.
+Most of the emoji in emojis/ are Phosphor "Fill" icons, recoloured.
 
 MIT License
 
