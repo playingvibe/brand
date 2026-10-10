@@ -7,20 +7,22 @@ redesign.
 ## What is here
 
 ```
-brand/logos/        the bots' avatars: the V on each colour gradient
-brand/gradients/    the gradient fields behind them
-brand/vectors/      the V as an SVG
-brand/banners/      app, server and invite banners
-brand/activity/     the Activity's background, cover, invite and preview images
-brand/premium/      the premium tier's store and benefit images
+brand/vectors/      the V and the wordmark, as SVG (the source of everything below)
+brand/logos/        the bots' avatars: the V on each bot's colour
+brand/banners/      the bots' profile banners
+brand/server/       the support server's icon, banner and invite splash
+brand/activity/     one folder per bot: the Activity's cover, background and invite images (and its preview, where there is one)
+brand/listing/      the splash for bot listings
+brand/premium/      the premium tiers' store images and benefit images
 brand/press/        screenshots and renders used on the website and in listings
-brand/viber-logo.png
 emojis/             application emoji, badges and the V marks (see below)
-viber-emojis/       the four status dots of the uptime bot
+viber-emojis/       the four status dots of the uptime bot, and its avatar
 fonts/              Outfit and Sacramento, with their licences
 gallery/            contact sheets of every emoji, dark and light
 LICENSES/           licences of the third-party parts
 ```
+
+The rules for using them are on one page: [BRAND.md](BRAND.md).
 
 Vibe's site is [playvibe.gg](https://playvibe.gg); the code for it is in
 [playingvibe/website](https://github.com/playingvibe/website).
